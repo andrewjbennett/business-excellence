@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Business Excellence",
+	"version": "1.0",
+	"description": "Business Excellence in Computing",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end",
+                        "all_frames": true
+		}
+	]
+}
+
